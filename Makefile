@@ -3,7 +3,7 @@ CFLAGS=-std=c11 -g -fno-common
 lcc: main.o
 	$(CC) -o lcc main.o $(LDFLAGS)
 
-test: chibicc
+test: lcc
 	./test.sh
 
 clean:
