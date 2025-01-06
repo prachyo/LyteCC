@@ -4,4 +4,7 @@
 **/*.s
 **/a.out
 /tmp*
+/thirdparty
 /lcc
+/test/*.exe
+/stage2
